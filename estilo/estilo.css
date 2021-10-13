@@ -127,3 +127,9 @@ body{
     
   }
 }
+@media screen and (max-width: 500px) {
+  .rowCenter{
+    flex-direction: column;
+  }
+}
+
