@@ -75,6 +75,18 @@ body{
     background-position-y: center;
     background-size: cover;
 }
+.hover:hover{
+  background-color: #41a420;
+  transition-duration: .2s;
+  color: rgb(255, 255, 255) !important;
+  
+}
+.dropdown-menu{
+  transition-duration: .3s !important;
+}
+.dropdown{
+  transition-duration: .3s !important;
+}
 
 .bg-imagem{
     height: 48vw;
@@ -86,6 +98,9 @@ body{
   .bg-imagem p{
     text-shadow: 4px 4px 8px black;
     font-size: 4vw;
+  }
+  .show{
+    transition-duration: 3s !important;
   }
   
   .carde{
@@ -105,6 +120,7 @@ body{
   
   .nav-link, .dropdown-item{
     color:black !important;
+    transition-duration: .5s;
   
   }
   
@@ -131,5 +147,10 @@ body{
   .rowCenter{
     flex-direction: column;
   }
+  #carrossel{
+    width: 100vw;
+  
+    padding: 0px 0px 0px 0px;
+}
 }
 
